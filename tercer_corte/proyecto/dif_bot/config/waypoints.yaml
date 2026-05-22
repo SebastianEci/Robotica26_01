@@ -1,0 +1,20 @@
+waypoints:
+  - name: punto_1
+    x: -3.0
+    y: -2.5
+    yaw: 0.0
+
+  - name: punto_2
+    x: -1.5
+    y: -2.0
+    yaw: 1.57
+
+  - name: punto_3
+    x: 0.5
+    y: -1.0
+    yaw: 0.0
+
+  - name: punto_4
+    x: 1.5
+    y: 1.0
+    yaw: 3.14

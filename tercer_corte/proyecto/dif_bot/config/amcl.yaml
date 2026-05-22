@@ -1,0 +1,31 @@
+amcl:
+  ros__parameters:
+    use_sim_time: true
+
+    base_frame_id: "base_link"
+    global_frame_id: "map"
+    odom_frame_id: "odom"
+    scan_topic: "/scan"
+
+    min_particles: 500
+    max_particles: 2000
+
+    update_min_d: 0.10
+    update_min_a: 0.10
+
+    resample_interval: 1
+    transform_tolerance: 1.0
+
+    alpha1: 0.2
+    alpha2: 0.2
+    alpha3: 0.2
+    alpha4: 0.2
+    alpha5: 0.2
+
+    laser_model_type: "likelihood_field"
+    laser_max_range: 8.0
+    laser_min_range: 0.12
+    laser_likelihood_max_dist: 2.0
+
+    recovery_alpha_fast: 0.0
+    recovery_alpha_slow: 0.0
